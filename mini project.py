@@ -1,5 +1,4 @@
-#first week project
-import re 
+#first week project 
 password=input("Enter your password:")
 length=len(password)>=8
 up=any(char.isupper() for char in password)
@@ -19,3 +18,4 @@ print("contains uppercase letter" if up else "no uppercase letters")
 print("contains lowercase letter" if low else "no lowercase letters")
 print("contains digits" if digi else "no digits")
 print("contains special charcters" if special else "no special charcters")
+
